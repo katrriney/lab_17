@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат классификации</title>
+</head>
+<body>
+    <h1>Результат классификации</h1>
+    <p>Класс изображения: {{ predicted_label }}</p>
+    <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Загруженное изображение">
+    <br><br>
+    <a href="/">Классифицировать другое изображение</a>
+</body>
+</html>
