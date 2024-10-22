@@ -53,7 +53,7 @@ def upload_file():
         predicted_class = np.argmax(prediction)
 
         # Названия классов Fashion MNIST
-        class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
+        class_names = ['T-shirt', 'Trouser', 'Pullover', 'Dress', 'Coat',
                        'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
         # Результат
